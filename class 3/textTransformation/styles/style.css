@@ -1,0 +1,34 @@
+.transformado1 {
+    text-transform: lowercase;
+    border: solid 5px black;
+}
+
+.transformado2 {
+    text-transform: uppercase;
+    border: solid 5px black;
+}
+
+.transformado3 {
+    text-transform: capitalize;
+    border: solid 5px black;
+}
+
+/* text-indent: sangria del texto*/
+/* letter-spacing: espacio entre las letras*/
+/* line-height: espaciado entre lineas */
+/* word-spacing: espacio entre letras*/
+.transformationX {
+    text-indent: 90px;
+    letter-spacing: 3px;
+    line-height: 50px;
+    word-spacing: 90px;
+    white-space: nowrap; /*nowrap, no respeta el ancho de la "caja" padre*/
+}
+
+.shadow{
+    /* text-shadow: px hacia la DERECHA - px hacia ABAJO - DESENFOCADO en px - color, .....*/
+    text-shadow: 5px 5px 1px blue, -7px -7px 1px red, 10px 10px 1px yellow;
+}
+h1.shadow{
+    color:aqua
+}

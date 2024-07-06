@@ -1,0 +1,92 @@
+.grid-conteiner {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+p {
+    border: 10px solid rgba(128, 128, 128, 0.308);
+    border-radius: 3px;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.overline-underline {
+    text-decoration: overline underline line-through;
+}
+
+.grid-conteiner-2 {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.grid-conteiner-3 {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}

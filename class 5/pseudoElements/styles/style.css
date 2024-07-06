@@ -1,0 +1,56 @@
+/* Estructura de un pseudoelemento
+    selector :: pseudoelemento{
+        propiedad: valor;
+    } 
+*/
+
+/*Caso: editar primera linea del párrafo*/
+p::first-line {
+    color: blue;
+    padding: 100000px;
+}
+
+/* caso: primera letra de un texto */
+p.text1::first-letter {
+    font-size: 3em;
+    font-style: bold;
+    color: red;
+
+}
+
+/* caso: que aparezca un elemento antes del h1 */
+h1::before {
+    content: url(../assets/img/dudu.png);
+}
+
+/* caso: que aparezca un elemento después del h1 */
+h1::after {
+    content: url(../assets/img/dudu.png);
+}
+
+/*Caso marcadores Listas*/
+ul>li::marker {
+    font-size: 3em;
+    color: blue;
+}
+
+ol>li::marker {
+    font-size: 2em;
+    color: aquamarine;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*CASO SELECTION: PARA TODOS*/
+::selection{
+    background: green;
+    color: red;
+}
+
+h1{
+    position: sticky;
+    text-align: center;
+    top: 0px;
+    background: linear-gradient(90deg, green 20%, red 80%);
+}

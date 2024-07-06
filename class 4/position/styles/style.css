@@ -1,0 +1,49 @@
+.conteiner1 {
+    position: static;
+    border: 1px solid green;
+    /*static: posición común y corriente*/
+    /*relative:permite moverse arribas, abajo, derecha, izquierda*/
+}
+
+.conteiner2 {
+    position: relative;
+    border: 1px solid green;
+    /*relative:permite moverse arribas, abajo, derecha, izquierda*/
+    left: 30px;
+    top: 5px;
+}
+
+.conteiner3 {
+    position: relative;
+    border: 1px solid green;
+    /*relative:permite moverse arribas, abajo, derecha, izquierda*/
+    top: 30px;
+}
+
+.parrafo {
+    position: relative;
+    bottom: 40px;
+}
+
+.conteiner4 {
+    position: absolute;
+    border: 2px solid red;
+    /*absolute: se superpone de otros elementos*/
+}
+.conteiner5 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    /* fixed: permite que el elemento se suporponga y se mantega en cualquier parte de la pantalla*/
+    /*Se usa mayormente en propaganda o opcion de cookies*/
+    border: 2px solid blue;
+}
+.conteiner6 {
+    position: sticky;
+    top: 0;
+    background-color: aqua;
+    /* sticky: actua como un relative hasta empieza el scroll, pues se mantiene arriba de la pantalla*/
+    /*Se usa mayormente en propaganda o opcion de cookies*/
+    border: 2px solid goldenrod;
+}
+

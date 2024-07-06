@@ -1,0 +1,71 @@
+/* .form-conteiner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+form{
+    background-color: thistle;
+    padding: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+} */
+
+.form-conteiner {
+    background-color: thistle;
+    border-radius: 10px;
+    margin: 50px 0;
+    padding: 20px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+input[type="email"],
+input[type="text"],
+textarea,
+select {
+    background-color: thistle;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    width: 100%;
+    padding: 20px;
+    margin: 8px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;   /*para que las dimensiones de los elementos dentro del contenedor no excedan del mismo*/
+}
+
+textarea{
+    resize: none; /*Para que no aparezca la opcion de modificar las dimensiones a gusto propio*/
+}
+
+label {
+    letter-spacing: 2px;
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: xx-large;
+}
+
+input[type="submit"] {
+    background-color: rgba(240, 115, 43, 0.877);
+    width: 80%;
+    color: rgb(13, 233, 203);
+    position: relative;
+    left: 10%;
+    border: none;
+    border-radius: 20px;
+    padding: 20px 50px;
+    font-weight: bolder;
+    cursor: pointer;   /*Estilor del cursor*/
+    margin: 40px 0px 0px 0px;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(245, 98, 12);
+    color: white;
+}

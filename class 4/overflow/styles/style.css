@@ -1,0 +1,27 @@
+.conteiner1 {
+    background-color: red;
+    width: 300px;
+    height: 150px;
+
+    /* hidden: el texto se oculta si excede del ancho y alto */
+    overflow: hidden;
+}
+
+.conteiner2 {
+    background-color: blue;
+    width: 100px;
+    height: 120px;
+
+    /* scroll: barras para ver todo el contenido excedido de las dimesiones del elemento */
+    overflow: scroll;
+}
+
+.conteiner3 {
+    background-color: violet;
+    width: 200px;
+    height: 120px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/*en html, si la palabra es larga, no procede al salta de linea si no hay un espacio*/

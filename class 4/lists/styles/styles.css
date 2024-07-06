@@ -1,0 +1,29 @@
+ul.type1{
+    /*Estilos predeterminados para listas*/
+    list-style-type: georgian;
+    background-color: aqua;
+    padding: 20px;
+}
+
+ul.type1 li{
+    color: blue;
+    background-color: grey;
+    padding: 3px;
+    margin: 10px;
+}
+
+ul.type2{
+    /*Imágenes para listas*/
+    list-style-image: url(../assets/img/dog.png);
+
+    /*Estilos a las listas*/
+    background-color: aqua;
+    padding: 10px;
+    margin: 20px
+}
+ul.type2 li{
+   /*Estilos a las filas*/ 
+   background-color: blue;
+   margin: 80px;
+   padding: 30px;
+}

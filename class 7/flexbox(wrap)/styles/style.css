@@ -1,0 +1,60 @@
+.conteiner-wrap1{
+    height: 10em;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap, acomoda los elementos de un conteiner cuando se ajusta el ancho de la pantalla*/
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.conteiner-wrap2{
+    height: 10em;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.conteiner-wrap3{
+    height: 10em;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.conteiner-wrap4{
+    height: 10em;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.conteiner-wrap5{
+    height: 10em;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-around; el más utilizado */
+}
+.conteiner-wrap6{
+    height: 10em;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+body>div{
+    margin-bottom: 50px;
+}
+div > div{
+    background-color: rgb(84, 233, 14);
+    width: 60px;
+    padding: 10px;
+    height: 10px;
+    margin: 10px;
+}

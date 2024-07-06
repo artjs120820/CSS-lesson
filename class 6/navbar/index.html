@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Navegación</title>
+    <style>
+        ul{
+            background-color: rgb(97, 95, 95);
+            position: relative;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        li{
+            font-size: 2em;
+            float: left;
+            border-right: 1px solid rgb(102, 242, 216);
+        }
+        li:last-child{
+            border-right: none;
+            border-left: 1px solid rgb(102, 242, 216);
+        }  
+
+        li>a{
+            display: block;
+            color: rgb(102, 242, 216);
+            text-decoration: none;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .active{
+            background-color: rgb(251, 106, 2);
+        }   
+        
+        /*Caso, excluir a una elemento con clase*/
+        li>a:hover:not(.active){
+            background-color: rgb(238, 161, 84);
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a class="active" href="">Home</a></li>
+                <li><a href="">Preferencias</a></li>
+                <li><a href="">Audiovisuales</a></li>
+                <li style="float:right"><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+</body>
+</html>

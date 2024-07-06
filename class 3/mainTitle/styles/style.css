@@ -1,0 +1,22 @@
+.overline {
+    text-decoration: overline;
+    text-decoration-color: aqua;
+    text-decoration-style: dotted;
+    /*SHORTHUND*/
+    /* text-decoration: overline aqua dotted 5px; */
+    border: 5px solid rgb(174, 149, 149);
+    border-radius: 20px;
+}
+
+.line-through {
+    text-decoration: line-through aqua double 3px;
+    border: 5px solid rgb(174, 149, 149);
+    border-radius: 20px;
+}
+
+.underline {
+    /* text-decoration-style: wavy; ondulado */
+    text-decoration: underline aqua wavy 5px;
+    border: 5px solid rgb(174, 149, 149);
+    border-radius: 20px;
+}

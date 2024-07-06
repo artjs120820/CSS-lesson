@@ -1,0 +1,37 @@
+.text {
+    display: none;
+    background-color: rgb(219, 169, 76);
+    padding: 100px;
+}
+
+div.test1:hover>p {
+    display: block;
+}
+
+/*Caso primer "p" que es hijo*/
+.text2:first-child {
+    background-color: brown;
+}
+
+/*Caso ultimo "p" que es hijo*/
+.text2:last-child {
+    background-color: cadetblue;
+}
+
+
+/*Caso pares*/
+/*Se lee: todos los hijos que tienen de clase "text2"*/
+.text2:nth-child(even) {
+    font-weight: bold;
+}
+
+/*Caso impares*/
+.text2:nth-child(odd) {
+    font-style: italic;
+    color: rgb(24, 165, 24);
+}
+
+/*INPUT:FOCUS*/
+input:focus{
+    background-color: blueviolet;
+}

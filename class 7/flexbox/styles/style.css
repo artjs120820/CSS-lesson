@@ -1,0 +1,41 @@
+.flex-conteiner1{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    width: 19em;
+}
+.flex-conteiner2{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 19em;
+}
+.flex-conteiner3{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    width: 19em;
+    height: 20em;
+}
+.flex-conteiner4{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 19em;
+    height: 20em;
+}
+
+div > div{
+    background-color: rgb(203, 203, 231);
+    margin: 5%;
+    padding: 5%;
+    font-size: 10px;
+}
+
+.flex-conteiner1, .flex-conteiner2, .flex-conteiner3{
+    margin-bottom: 1em;
+}
+
+h1{
+    font-size: medium;
+}

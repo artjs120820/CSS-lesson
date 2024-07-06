@@ -1,0 +1,33 @@
+.bottom {
+    margin-bottom: 20px;
+    background-color: crimson;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 100px 120px 100px;
+    grid-template-rows: 100px 120px 100px;
+}
+
+div>div {
+    background-color: darkgoldenrod;
+    margin: 10px;
+    padding: 10px;
+}
+
+.grid-conteiner1 {
+    justify-items: start;
+    /*ignora el ancho */
+}
+
+.grid-conteiner2 {
+    justify-items: end;
+    /*ignora el ancho */
+}
+
+.grid-conteiner3 {
+    justify-items: center;
+    /*ignora el ancho */
+}
+
+.grid-conteiner4 {
+    justify-items: stretch;
+}

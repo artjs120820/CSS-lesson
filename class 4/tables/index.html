@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        tr,td {
+            border: solid 1px brown;
+            width: 200px;
+            text-align: center;
+        }
+
+        /*Colapsar: modificar los margenes de cada fila*/
+        /*Caso: todo junto*/
+        table {
+            border-collapse: collapse;
+        }
+
+        table,th {
+            border: solid 2px brown;
+        }
+
+        .firstColumn {
+            border: solid 2px brown;
+        }
+
+        th {
+            height: 100px;
+            background-color: rgba(148, 148, 148, 0.884);
+        }
+
+        /*En caso de modificar las dimensiones de una etiqueta hija, el padre tambien se verá modificado*/
+
+        /*ADELANTANDO PSEUDOSELECTORES*/
+        /*Caso, columnas pares-impares (even-odd)*/
+        tr:nth-child(even) {
+            background-color: aqua;
+        }
+
+        tr:nth-child(odd) {
+            background-color: rgb(175, 164, 236);
+        }
+
+        /* En caso del titulo, el estilo de su fila "th" ya tiene un color de fondo asignado, por lo que tiene más prioridad */
+
+        /*Caso, pasar el cursor*/
+        tr:hover {
+            background-color: rgb(233, 135, 135);
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <colgroup>
+            <col class="firstColumn">
+            <col>
+            <col>
+            <col>
+        </colgroup>
+        <tr>
+            <th></th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Tecnologia</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Arturo</td>
+            <td>Silvera</td>
+            <td>CSS</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Karme</td>
+            <td>Alerez</td>
+            <td>JS</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Keke</td>
+            <td>Silvera</td>
+            <td>Html</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Keke</td>
+            <td>Silvera</td>
+            <td>Html</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Keke</td>
+            <td>Silvera</td>
+            <td>Html</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Keke</td>
+            <td>Silvera</td>
+            <td>Html</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Keke</td>
+            <td>Silvera</td>
+            <td>Html</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Keke</td>
+            <td>Silvera</td>
+            <td>Html</td>
+        </tr>
+    </table>
+</body>
+
+</html>

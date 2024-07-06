@@ -1,0 +1,27 @@
+/*
+    ESTRUCTURA DE UNA PSEUDOCLASE
+    elemento : pseudoelemento {
+        propiedad: valor;
+    } 
+*/
+a:link{
+    background-color: yellow;
+    text-decoration: none;
+}
+
+/* Nota: No funciona en pestañas incógnitas */
+a:visited{
+    background-color: black;
+    color: white; 
+}
+
+
+/*Cuando movemos el cursor al elemento*/
+a:hover{
+    background-color: aquamarine;
+}
+
+/*Cuando mantenemos apretado con click derecho el elemento*/
+a:active{
+    background-color: brown;
+}

@@ -1,0 +1,35 @@
+.cajita1{
+    background-color: blue;
+    color:red;
+    max-height: 100px;
+    width: 100px;
+    border: solid 4px black;
+}
+.cajita2{
+    background-color: green;
+    color:red;
+    min-height: 50px;
+    width: 100px;
+    border: solid 4px black;
+}
+.cajita3{
+    background-color: yellow;
+    color:red;
+    height: 100px;
+    width: 100px;
+    border: solid 4px black;
+}
+.cajaroja{
+    background-color: red;
+    border: solid 4px black;
+    height: 500px;
+    width: 500px;
+}
+/*El min-heigth y el min-width se adaptan a las dimensiones del element div padre
+si logra exceder el tamaño designado */
+.cajaazul{
+    min-height: 100px;
+    background-color: blue;
+    border: solid 4px black;
+    min-width: 100px;
+}

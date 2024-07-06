@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    background-image: url(../assets/img/dudu.png);
+    /*Controlar repeticiones*/
+    background-repeat: no-repeat;
+    /*Posiciones de la imagen*/
+    background-position: bottom;
+    /*Para que nos siga la imagen, IMPORTANTE*/
+    background-attachment: fixed;
+
+    /*SHORTHAND*/
+    /* background: black url(/background/assets/img/dudu.png) no-repeat bottom fixed; */
+}
+p{
+    color:blue
+}

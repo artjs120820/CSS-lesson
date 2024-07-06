@@ -1,0 +1,5 @@
+/*Gradient*/
+body{
+    /* background: linear-gradient(angulo "deg", color1 % , color2 %...); */
+    background: linear-gradient(90deg,red 10%, white 50%, red 90%);
+} 

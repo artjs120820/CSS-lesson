@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    margin-bottom: 9em;
+    background: linear-gradient(to right, rgb(243, 151, 108), rgb(253, 16, 155));
+}
+
+
+h1{
+    background-color: black;
+    color: white;
+    padding: 1em 0;
+    margin: 0;
+    text-align: center;
+}
+ul{
+    background-color: brown;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+li{
+    float: left;
+    border-right: 2px solid white;
+}
+li:last-child{
+    border-right: none;
+    float: right;
+    border-left: 2px solid white;
+}
+
+li:hover>a:hover:not(.focus){
+    background-color: rgb(231, 115, 20);
+    color: white;
+    font-weight: bold;
+}
+
+li>a{
+    text-decoration: none;
+    display: block;
+    padding: 20px 30px;
+    font-weight: bold;
+    color:rgb(200, 200, 235);
+}
+
+.focus{
+    background-color: rgb(245, 185, 136);
+    color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+
+footer{
+    background-color: rgba(100, 98, 98, 0.24);
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer>p{
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 20px 30px;
+}
+
+@media ((max-width:513.40px) and (min-width:232px)){
+    .none{
+        display: none;
+    }
+    li:last-child{
+        float: left;
+        border-left: none;
+    }
+}
+@media (max-width:232px){
+    .none{
+        display: none;
+    }
+    .secondnone{
+        display: none;
+    }
+}

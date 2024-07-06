@@ -1,0 +1,35 @@
+.leftlateral{
+    float: left;
+    width: auto;
+    position: absolute;  
+    opacity: 1;
+    z-index: 1;
+    transition: opacity 1s, z-index 1s;
+}
+.leftlateral video{
+    display: block;
+}
+.leftlateral:hover{
+    opacity: 0.4;
+    z-index: 1;
+}
+.centrado{
+    display: flex;
+    justify-content: center; 
+}
+
+.galery{
+    border: 2px solid rgba(240, 71, 71, 0.801);
+    width: 30%;
+    margin: 20px;
+
+}
+.galery img{
+    width: 100%;
+}
+.galery div{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 10px 50px;
+}

@@ -1,0 +1,58 @@
+p.dotted{
+    border-style: dotted;
+    border-color: brown;
+    border-width: 10px;
+    /*SHORTHUND*/
+    /* border: 10px dotted brown; */
+
+    /*border-radius: atributo para "suavizar ezquinas"*/
+    border-radius: 90px;
+}
+p.dashed{
+    border-style: dashed;
+    border-color: brown;
+    border-width: 10px;
+}
+p.solid{
+    border-style:solid;
+    border-color: brown;
+    border-width: 10px;
+}
+p.double{
+    border: double blue 10px;
+}
+p.groove{
+    border-style:groove;
+    border-color: brown;
+    border-width: 10px;
+}
+p.ridge{
+    border: ridge brown 10px;
+    border-radius: 100px;
+}
+p.inset{
+    border-style:inset;
+    border-color: brown;
+    border-width: 10px;
+}
+p.outset{
+    border-style: outset;
+    border-color: brown;
+    border-width: 10px;
+}
+p.none{
+    border-style: none;
+    border-color: brown;
+    border-width: 10px;
+}
+p.hidden{
+    border-style: hidden;
+    border-color: brown;
+    border-width: 10px;
+}
+/*Maximo 4*/
+p.mix{
+    border-style: dotted dashed groove ridge;
+    border-color: brown;
+    border-width: 20px;
+}

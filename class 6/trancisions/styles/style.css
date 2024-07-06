@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+img{
+    position: absolute;
+    opacity: 0.8;
+    top: 30%;
+    left: 45%;
+    width: 500px;
+    /*En este caso, la transición funciona tanto en el hover como en el elemento normal,
+    por una cuestión de jerarquía*/
+    transition: opacity 4s ease-in-out 0.3s, width 4s linear 0.3s;
+}
+
+img:hover{
+    opacity: 0.2;
+    width: 800px;
+    /*Hace una transcición respecto a la opacidad antes del hover*/
+    /* transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1.5s; */
+
+    /* SHORTHUND: transition-delay */
+}

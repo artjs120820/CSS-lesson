@@ -1,0 +1,72 @@
+body {
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "BNCE" 0,
+        "INFM" 0,
+        "SPAC" 0;
+    margin: 0;
+    background-color: rgb(231, 235, 235);
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: rgba(235, 76, 129, 0.767);
+    overflow: hidden;
+    transition: background-color 0.2s ease-in-out;
+}
+.navbar:hover{
+    background-color: rgb(245, 104, 151);
+}
+
+.navbar a {
+    float: left;
+    padding: 1em 3em;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: chocolate;
+}
+
+.focus:not(.first) {
+    background-color: chocolate;
+    border-right: 2px solid rgb(253, 0, 0);
+    border-left: 2px solid rgb(253, 0, 0);
+}
+
+.focus.first {
+    background-color: chocolate;
+    border-right: 2px solid rgb(253, 0, 0);
+}
+
+.responsive {
+    padding: 2em;
+    display: none;
+}
+
+i {
+    padding: 0 0.2em;
+}
+
+@media (max-width: 880px) {
+    .responsive {
+        display: block;
+        float: right;
+    }
+
+    a {
+        display: none;
+    }
+}
+
+.introduction {
+    text-align: center;
+    margin: 0 15%;
+}
+
+h1 {
+    text-shadow: rgb(238, 116, 187) 1px 1px, rgb(226, 166, 238) 2px 2px;
+}

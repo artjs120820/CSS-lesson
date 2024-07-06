@@ -1,0 +1,29 @@
+
+/*Selección descediente: 
+    cuando se dirige primero a un elemento padre y luego al descendiente
+    div -> p -> text -> ..... 
+*/
+/*CASO SOLO HIJO DIRECTO:
+    div>p    
+*/
+div.test1>p{
+    background-color: blueviolet;
+}
+span.test1Span>p{
+    background-color: chocolate;
+}
+div{
+    background-color: rgb(86, 158, 222);
+}
+
+/* CASO HERMANO ADYACENTE: toma el primero que cumpla la condicion del "+" */
+div.test2+p{
+    background-color: crimson;
+}
+
+/*Caso todos los hermanos: logica "~"*/
+
+div.test3~p{
+    background-color: darkblue;
+    color:wheat;
+}

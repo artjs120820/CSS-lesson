@@ -1,0 +1,36 @@
+.bottom{
+    margin-bottom: 1.5em;
+    background-color: chocolate;
+    padding: 10px;
+    display: grid;
+}
+div>div{
+    background-color: rgba(128, 255, 0, 0.344);
+    margin: 10px;
+    padding: 20px;
+}
+.grid-conteiner1{
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+.grid-conteiner2{
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+}
+.grid-conteiner3{
+    grid-template-columns: 100px auto auto;
+    grid-template-rows: auto auto 100px;
+}
+.grid-conteiner4{
+    grid-template-columns: 22% 22% 40%;
+    grid-template-rows: 22% 22% 22%;
+}
+.grid-conteiner5{
+    grid-template-areas: header header header header
+    sidemenu main main
+    footer footer footer footer; /*Investigar*/
+}
+.grid-conteiner6{
+    grid-template: 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+    /* Investigar */
+}

@@ -1,0 +1,40 @@
+.bottom {
+    margin-bottom: 20px;
+    background-color: red;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 100px 120px 100px;
+    grid-template-rows: 100px 120px 100px;
+    height: 25em;
+    align-items: start;
+    align-content: start;
+    transition: background-color 1s ease-in-outs, aling-items 6s ease-in-out, aling-content 6s ease-in-out;
+}
+
+.bottom:hover {
+    background-color: orange;
+    align-items: center;
+    align-content: center;
+}  
+
+div>div {
+    background-color: darkgoldenrod;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+    text-shadow: red 2px 2px, orange -2px -2px;
+}
+
+.grid-conteiner1 {
+    grid-auto-flow: row;
+}
+
+.grid-conteiner2 {
+    grid-auto-flow: column;
+}
+
+.grid-conteiner3 {
+    grid-auto-flow: dense;
+}

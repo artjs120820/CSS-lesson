@@ -1,0 +1,29 @@
+.left{
+    float: left;
+    padding: 0 20px;
+}
+
+.right{
+    float: right;
+    padding: 0 20px;
+}
+article > p{
+    font-size: xx-large;
+    padding: 20px;
+    text-align: justify;
+}
+
+h2{
+    margin: 0.5em 1.5em;
+    font-style: italic;
+    font-size: 4em;
+}
+
+h3{
+    margin-left: 3em;
+    text-shadow: red 1px 1px;
+    font-size: 2em;
+}
+img{
+    max-width: 50%;
+}

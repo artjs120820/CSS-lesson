@@ -1,0 +1,36 @@
+.marginb{
+    background-color: blueviolet;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 800px;
+}
+
+/* Alinea el contenedor de los elementos */
+.flex-conteiner1{
+    align-content: flex-start;
+}
+.flex-conteiner2{
+    align-content: flex-end;
+}
+.flex-conteiner3{
+    align-content: center;
+}
+.flex-conteiner4{
+    align-content: space-between;
+}
+.flex-conteiner5{
+    align-content: space-around;
+}
+.flex-conteiner6{
+    align-content: stretch;
+}
+div>div{
+    background-color:yellow;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}

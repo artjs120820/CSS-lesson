@@ -1,0 +1,31 @@
+/*Nombres por defecto*/
+h1 {
+    background-color: tomato;
+}
+
+/*Sistema hexagesimal*/
+body {
+    background-color: rgb(40, 218, 70);
+}
+
+.seccion1 {
+    background-color: #d8ee1080;
+    /*A más digitos, más transparente se vuelve el color, por lo tanto se logra combinar*/
+}
+
+/*RGB*/
+.seccion2 {
+    background-color: rgba(89, 6, 243, 0.5);
+}
+
+/*HSL*/
+.seccion3 {
+    /* background-color: hsl(hue, saturation, lightness); */
+    background-color: hsl(0, 100%, 51%);
+}
+
+/*HSLA*/
+.seccion4 {
+    /* background-color: hsla(hue, saturation, lightness,alpha); */
+    background-color: hsla(293, 74%, 49%, 0.425)
+}

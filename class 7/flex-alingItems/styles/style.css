@@ -1,0 +1,43 @@
+div>div {
+    background-color: yellow;
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+}
+/* Alinea los elementos según las dimensiones de sus márgenes */
+.flex-conteiner1 {
+    align-items: flex-start;
+    /*Default*/
+}
+
+.flex-conteiner2 {
+    align-items: flex-end;
+}
+
+.flex-conteiner3 {
+    align-items: center;
+}
+
+.flex-conteiner4 {
+    align-items: stretch;
+}
+
+.flex-conteiner5 {
+    align-items: baseline;
+}
+
+.marginb {
+    margin-bottom: 20px;
+    background-color: cadetblue;
+    padding: 10px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: x-large;
+    text-align: center;
+}

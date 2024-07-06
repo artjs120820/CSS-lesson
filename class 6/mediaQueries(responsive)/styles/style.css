@@ -1,0 +1,54 @@
+.conteiner {
+    overflow: auto;
+}
+
+.leftSide {
+    float: none;
+    width: auto;
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* media::: CASO"lo minimo que el ancho pueda llegar" */
+@media (min-width: 300px) {
+    .leftSide {
+        float: left;
+        width: 300px;
+    }
+
+    img {
+        width: 300px;
+    }
+
+    .text {
+        position: static;
+        color: blue;
+        ;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
+
+@media ((max-width: 300px) and (min-width: 200px))  {
+    .leftSide {
+        float: right;
+        width: 300px;
+    }
+
+    img {
+        width: 300px;
+        display: none;
+    }
+
+    .text {
+        position: static;
+        color: red;
+        ;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}

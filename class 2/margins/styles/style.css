@@ -1,0 +1,39 @@
+.cajita1 {
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    background-color: blue;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    /*El bloque div tiene:
+        margin: todo el bloque div;
+        border;
+        padding: espacio entre el borde y el elemento interno;
+
+        #######################
+                top
+        left            right
+                bottom
+        #######################
+    */
+    /*SHORTHUN, 
+        si solo colocamos una medida, se desginara en todos
+        si colocamos 2, el primero va destinado al top - bottom, el segundo al left-rigth    
+    */
+    /* margin: top right bottom left; */
+}
+
+.cajita2 {
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    background-color: red;
+    margin: 30px 15px 20px 200px;
+}
+
+.cajita3 {
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    background-color: green;
+}

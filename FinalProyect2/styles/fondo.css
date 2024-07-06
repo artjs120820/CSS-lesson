@@ -1,0 +1,25 @@
+.grid-conteiner{
+    background-color:aquamarine;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: center;
+}
+p {
+    border: 10px solid rgba(128, 128, 128, 0.308);
+    border-radius: 3px;
+}
+
+.grid-conteiner > div{
+    width: 20vw;
+}
+.plane{
+    background-color: cornflowerblue;
+}
+
+.image{
+    background: url('../assets/img/dog2.png') no-repeat center;
+}
+.gradiant{
+    background: linear-gradient(to right, rgb(228, 119, 250), blue);
+}

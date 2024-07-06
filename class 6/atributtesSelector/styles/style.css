@@ -1,0 +1,12 @@
+/* Caso: editor elementos con atributo "blank" */
+a[target]{
+    background-color: aqua;
+}
+
+/*Caso: editar elementos atributo específico*/
+a[target="_blank"]{
+    background-color: brown;
+}
+input[type="text"]{
+    background-color: aqua;
+}

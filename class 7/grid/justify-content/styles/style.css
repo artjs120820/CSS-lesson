@@ -1,0 +1,44 @@
+.bottom {
+    margin-bottom: 20px;
+    background-color: crimson;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 100px 120px 100px;
+    grid-template-rows: 100px 120px 100px;
+    height: 1000px;
+}
+
+div>div {
+    background-color: darkgoldenrod;
+    margin: 10px;
+    padding: 10px;
+}
+
+.grid-conteiner1 {
+    justify-content: start;
+}
+
+.grid-conteiner2 {
+    justify-content: end;
+}
+
+.grid-conteiner3 {
+    justify-content: center;
+}
+
+.grid-conteiner4 {
+    justify-content: stretch;
+}
+
+.grid-conteiner5 {
+    justify-content: space-around; 
+    /*Más utilizado*/
+}
+
+.grid-conteiner6 {
+    justify-content: space-between;
+}
+
+.grid-conteiner7 {
+    justify-content: space-evenly;
+}

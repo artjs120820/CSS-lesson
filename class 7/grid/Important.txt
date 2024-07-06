@@ -1,0 +1,8 @@
+PARA UBICAR  a un elmen to en el medio,
+es necesario configra "justify-content: center" & "aling-content: center"
+
+
+
+Además, la diferencia principal entre grid y flex, es que este primero
+puede editar lasdimensiones del elemento hijo con "grid-template-columns/rows", mientras que,
+con flex, se debe editar llamando al elemento en la hoja de estilos.

@@ -1,0 +1,49 @@
+.cajita1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: solid 2px black;
+
+    /*Para que se comporte en linea*/
+    display: inline;
+}
+.cajita2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(179, 221, 80);
+    border: solid 2px black;
+    display: inline;
+    /*Para que no sea visible*/
+    visibility: hidden;
+}
+.cajita3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(117, 255, 179);
+    border: solid 2px black;
+    display: inline;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 47, 116);
+    border: solid 2px black;
+
+    /*Para que se comporte en bloque*/
+    display: block;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(236, 115, 16);
+    border: solid 2px black;
+    /*Evita lo que hay dentro de la etiqueta span*/
+    display: none;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(59, 252, 0);
+    border: solid 2px black;
+    display: block;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caso selector por clase</title>
+    <style>
+        h1{
+            background-color: black;
+            color:white;
+        }
+        h2{
+            background-color: red;
+        }
+        /*Selector por clases combinados con etiquetas*/
+        h2.seccion3{
+            color:yellow;
+        }
+
+        p.seccion1{
+            background-color: green;
+        }
+        /*Selector por identificador combinados con etiquetas*/
+        p#parrafoSeleccionado{
+            color:blue;
+        }
+        /*Caso más de una clase por etiqueta*/
+        .estilo-fuente-distinto{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .seccion1.estilo-fuente-distinto{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="seccion1">Este es el titulo principal</h1>
+    <h2 class="seccion1 estilo-fuente-distinto">Este es el titulo secundario</h2>
+    <p class="seccion1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, suscipit. Rem temporibus excepturi
+        doloremque et odio, vero quasi. Beatae magnam aut, dicta expedita cum alias natus deleniti nobis ab odit?</p>
+    <hr>
+    <h1 class="seccion2">Este es otro titulo principal</h1>
+    <h2 class="seccion2">Este es otro titulo secundario</h2>
+    <p class="seccion2 estilo-fuente-distinto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, suscipit. Rem temporibus excepturi
+        doloremque et odio, vero quasi. Beatae magnam aut, dicta expedita cum alias natus deleniti nobis ab odit?</p>
+    <hr>
+    <h1 class="seccion3 estilo-fuente-distinto">Este es otro titulo principal de la seccion 3</h1>
+    <h2 class="seccion3">Este es otro titulo secundario de la seccion 3</h2>
+    <p class="seccion3" id="parrafoSeleccionado">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, suscipit. Rem temporibus excepturi
+        doloremque et odio, vero quasi. Beatae magnam aut, dicta expedita cum alias natus deleniti nobis ab odit?</p>
+</body>
+
+</html>
